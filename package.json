@@ -1,0 +1,16 @@
+{
+  "name": "shiny-shape-c4f8",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev --remote"
+  },
+  "devDependencies": {
+    "@cloudflare/puppeteer": "^0.0.5",
+    "nanoid": "^5.0.3",
+    "sanitize-filename": "^1.6.3",
+    "wrangler": "^3.0.0"
+  }
+}

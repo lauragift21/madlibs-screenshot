@@ -1,0 +1,14 @@
+name = "shiny-shape-c4f8"
+main = "src/index.js"
+compatibility_date = "2023-10-30"
+node_compat = true
+workers_dev = true
+
+browser = { binding = "MYBROWSER", type = "browser" }
+
+r2_buckets  = [
+  { binding = "R2BUCKET", bucket_name = "madlibs-creations", preview_bucket_name = "madlibs-preview" }
+]
+
+[vars]
+bucketUrl = "https://pub-fca04329180a4bd7b37a80bd75f7268c.r2.dev"
